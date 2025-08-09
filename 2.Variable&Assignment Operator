@@ -1,0 +1,468 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "6fa5d280-e223-4eee-a08b-a35c89aeb83c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "num1=10\n",
+    "num2=30\n",
+    "add=num1+num2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "bbb543e4-577a-41b3-99d6-3aa494bfa835",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "add\n"
+     ]
+    }
+   ],
+   "source": [
+    "num1=10\n",
+    "num2=30\n",
+    "add=num1+num2\n",
+    "print(\"add\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "cd763d1c-59aa-416b-8553-ed4d37129e6b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "add\n",
+      "40\n"
+     ]
+    }
+   ],
+   "source": [
+    "num1=10\n",
+    "num2=30\n",
+    "add=num1+num2\n",
+    "print(\"add\")\n",
+    "print(add)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "8d8c8301-dceb-43ec-a8c8-4900ff5c5510",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax. Perhaps you forgot a comma? (2178225517.py, line 6)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;36m  Cell \u001b[1;32mIn[4], line 6\u001b[1;36m\u001b[0m\n\u001b[1;33m    print(\"The value of Expresssion is\" expression)\u001b[0m\n\u001b[1;37m          ^\u001b[0m\n\u001b[1;31mSyntaxError\u001b[0m\u001b[1;31m:\u001b[0m invalid syntax. Perhaps you forgot a comma?\n"
+     ]
+    }
+   ],
+   "source": [
+    "num1=20\n",
+    "num2=100\n",
+    "num3=-200\n",
+    "num4=1000\n",
+    "expresssion=num1+num2+num3+num4\n",
+    "print(\"The value of Expresssion is\" expression)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "1973dbb8-d569-4bee-a17a-c4f721802828",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "The value of Expresssion is\n"
+     ]
+    }
+   ],
+   "source": [
+    "num1=20\n",
+    "num2=100\n",
+    "num3=-200\n",
+    "num4=1000\n",
+    "expresssion=num1+num2+num3+num4\n",
+    "print(\"The value of Expresssion is\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "9f85ad7c-d482-41ed-9bc2-047a598d8d05",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "The value of Expresssion is\n"
+     ]
+    },
+    {
+     "ename": "NameError",
+     "evalue": "name 'expression' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[1;32mIn[6], line 7\u001b[0m\n\u001b[0;32m      5\u001b[0m expresssion\u001b[38;5;241m=\u001b[39mnum1\u001b[38;5;241m+\u001b[39mnum2\u001b[38;5;241m+\u001b[39mnum3\u001b[38;5;241m+\u001b[39mnum4\n\u001b[0;32m      6\u001b[0m \u001b[38;5;28mprint\u001b[39m(\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124mThe value of Expresssion is\u001b[39m\u001b[38;5;124m\"\u001b[39m)\n\u001b[1;32m----> 7\u001b[0m \u001b[38;5;28mprint\u001b[39m(expression)\n",
+      "\u001b[1;31mNameError\u001b[0m: name 'expression' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "num1=20\n",
+    "num2=100\n",
+    "num3=-200\n",
+    "num4=1000\n",
+    "expresssion=num1+num2+num3+num4\n",
+    "print(\"The value of Expresssion is\")\n",
+    "print(expression)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "9450d52a-0c88-4cca-9453-6ade30297e0f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "The value of Expresssion is\n",
+      "920\n"
+     ]
+    }
+   ],
+   "source": [
+    "num1=20\n",
+    "num2=100\n",
+    "num3=-200\n",
+    "num4=1000\n",
+    "expression=num1+num2+num3+num4\n",
+    "print(\"The value of Expresssion is\")\n",
+    "print(expression)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "1908fff3-e9ae-4535-85e8-72d743a9cdf7",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'Mayilvel' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[1;32mIn[8], line 1\u001b[0m\n\u001b[1;32m----> 1\u001b[0m First_name\u001b[38;5;241m=\u001b[39mMayilvel\n\u001b[0;32m      2\u001b[0m Second_name\u001b[38;5;241m=\u001b[39mRagavel\n\u001b[0;32m      3\u001b[0m Full_Name\u001b[38;5;241m=\u001b[39m First_name\u001b[38;5;241m+\u001b[39mSecond_name\n",
+      "\u001b[1;31mNameError\u001b[0m: name 'Mayilvel' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "First_name=Mayilvel\n",
+    "Second_name=Ragavel\n",
+    "Full_Name= First_name+Second_name\n",
+    "print(Full_Name)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "75679ee5-e69c-4a88-bea8-55d4c830701b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "MayilvelRagavel\n"
+     ]
+    }
+   ],
+   "source": [
+    "First_name=\"Mayilvel\"\n",
+    "Second_name=\"Ragavel\"\n",
+    "Full_Name= First_name+Second_name\n",
+    "print(Full_Name)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "14b3175a-ac49-45b5-a3d7-72d02629a05c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "MayilvelRagavel\n"
+     ]
+    }
+   ],
+   "source": [
+    "First_name=\"Mayilvel\"\n",
+    "Second_name=\"Ragavel\"\n",
+    "Full_Name= First_name+ Second_name\n",
+    "print(Full_Name)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "3ba3ff60-80d0-474e-84da-a571460781c0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "MayilvelRagavel\n"
+     ]
+    }
+   ],
+   "source": [
+    "First_name=\"Mayilvel\"\n",
+    "Second_name=\"Ragavel\"\n",
+    "Full_Name= First_name+Second_name\n",
+    "print(Full_Name)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "3022e61b-1fb2-494e-b097-4cfa78450906",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "The addition of two numbers\n",
+      "The number1: 10\n",
+      "The number2: 20\n",
+      "The Answer : 30\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"The addition of two numbers\")\n",
+    "num1=10\n",
+    "print(\"The number1:\",num1)\n",
+    "num2=20\n",
+    "print(\"The number2:\",num2)\n",
+    "print(\"The Answer :\", num1+num2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "f5b53615-28e5-486c-8773-76aefe7c8d45",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "First_name  Second_name\n"
+     ]
+    }
+   ],
+   "source": [
+    "First_name=\"Mayilvel\"\n",
+    "Second_name=\"Ragavel\"\n",
+    "Full_Name= First_name+Second_name\n",
+    "print(\"First_name\",\" \" \"Second_name\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "7297bbe0-914f-4c07-a796-0aeea21552b2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Mayilvel Ragavel\n"
+     ]
+    }
+   ],
+   "source": [
+    "First_name=\"Mayilvel\"\n",
+    "Second_name=\"Ragavel\"\n",
+    "Full_Name= First_name+ \" \"+Second_name\n",
+    "print(Full_Name)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "03eb85d3-3cf8-46e0-afc2-c53921c3b63b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter your First Name Mayilvel\n",
+      ":Enter your Second Name Second Name\n"
+     ]
+    },
+    {
+     "ename": "NameError",
+     "evalue": "name 'Print' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[1;32mIn[21], line 4\u001b[0m\n\u001b[0;32m      2\u001b[0m Second_name\u001b[38;5;241m=\u001b[39m\u001b[38;5;28minput\u001b[39m(\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124m:Enter your Second Name\u001b[39m\u001b[38;5;124m\"\u001b[39m)\n\u001b[0;32m      3\u001b[0m Full_name\u001b[38;5;241m=\u001b[39mFirst_name\u001b[38;5;241m+\u001b[39m\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124m \u001b[39m\u001b[38;5;124m\"\u001b[39m\u001b[38;5;241m+\u001b[39mSecond_name\n\u001b[1;32m----> 4\u001b[0m Print(\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124mMy Full Name is :\u001b[39m\u001b[38;5;124m\"\u001b[39m, Full_name)\n",
+      "\u001b[1;31mNameError\u001b[0m: name 'Print' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "First_name=input(\"Enter your First Name\")\n",
+    "Second_name=input(\":Enter your Second Name\")\n",
+    "Full_name=First_name+\" \"+Second_name\n",
+    "Print(\"My Full Name is :\", Full_name)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "a6c1fcb6-fbb0-42c0-a82c-92ce6db7d50b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter your First Name \n",
+      ":Enter your Second Name \n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "My Full Name is :  \n"
+     ]
+    }
+   ],
+   "source": [
+    "First_name=input(\"Enter your First Name\")\n",
+    "Second_name=input(\":Enter your Second Name\")\n",
+    "Full_name=First_name+\" \"+Second_name\n",
+    "print(\"My Full Name is :\", Full_name)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "29651a36-afca-47d1-9cbe-9217433375b8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "40\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(add)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "7a6b5d05-e914-4d44-9075-26d4c02186e2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "920\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(expression)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "42761f3f-c8fb-41c0-a271-e159f5de1b6b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Mayilvel Ragavel\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(Full_name)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a6c32707-e12a-414a-b9c2-6ced1a1e15c1",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
